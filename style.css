@@ -1,0 +1,110 @@
+*{
+    text-align: center;
+}
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+    text-decoration:underline
+}
+p, li{
+    font-family: 'Roboto Slab', serif;
+}
+li{
+    list-style-position: inside; /** Makes Bullets/ Numbers follow text rather than staying to the left of the page**/
+    text-align: left;
+}
+
+
+#navbar{
+    background-color: #B0DAFF;
+    color: #19A7CE;
+    position: sticky; 
+    top:0;
+    width: 100%;
+    
+}
+#top{
+    background-color: #B0DAFF;
+}
+/**HOMEPAGE**/
+
+.dropdown-menu{
+    background-color: #B0DAFF;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-container img{
+    border-radius: 50%;
+}
+.text{
+    margin-left:20px;
+}
+#introduction{   
+    background-color: #2CD3E1;
+    padding: 20px;
+}
+
+#resume{
+    background-color:  #19A7CE;
+    padding: 20px;
+}
+
+th, td {
+    border-style: dashed!important;
+    border-width: 2px !important;
+    border-color: black !important;
+}
+
+#past-projects{
+    background-color: #2CD3E1;
+    padding: 20px;
+}
+
+#past-projects img{
+    float:left;
+    padding-right: 20px;
+}
+
+#about-me{
+    background-color:  #19A7CE;
+
+    padding: 20px;
+}
+
+#footer{
+    background-color: #B0DAFF;
+}
+
+
+/** WORK EXPERIENCE**/
+
+#tco{   
+    background-color: #2CD3E1;
+    padding: 20px;
+}
+#clerical{   
+    background-color:  #19A7CE;
+    padding: 20px;
+}
+#web-developer{   
+    background-color: #2CD3E1;
+    padding: 20px;
+}
+#intern{   
+    background-color:  #19A7CE;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .flex-container{
+        flex-direction: column;
+    }
+
+    #past-projects img{
+        float:none;
+        margin-bottom: 20px;
+    }
+  }
